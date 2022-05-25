@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: 150px;
+  background-color: rgb(114, 245, 245);
+}
+
+h1,
+h4 {
+  color: white;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 1rem;
+}
+h4 {
+  margin-top: 0;
+}
