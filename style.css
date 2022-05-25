@@ -29,7 +29,7 @@ nav {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  height: 50px;
+  height: 3rem;
   background-color: rgb(139, 129, 129);
   padding: 1rem 1rem;
 }
@@ -42,4 +42,40 @@ a:hover {
 }
 a:not(:last-child) {
   margin-right: 2rem;
+}
+
+section h4 {
+  color: black;
+  text-align: left;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+section .left {
+  flex: 1;
+}
+
+section .right {
+  flex: 2;
+}
+
+.left {
+  background-color: rgb(206, 197, 197);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.right {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.same {
+  height: 15rem;
+}
+
+img {
+  width: 100%;
+  height: 5rem;
 }
